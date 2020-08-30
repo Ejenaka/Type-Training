@@ -1,0 +1,215 @@
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #0e1111;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	height: 100vh;
+	box-sizing: border-box;
+}
+
+/* Index Page */
+
+.main-items {
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.main-title {
+	font-size: 50pt;
+	color: white;
+	margin: 30px;
+}
+
+.start-button {
+	width: 200px;
+	height: 50px;
+	margin-top: 30px;
+	text-transform: uppercase;
+	font-weight: bold;
+	background-color: inherit;
+	color: white;
+	border-style: none;
+	outline: none;
+	font-family: inherit;
+}
+
+.start-button:hover {
+	background-color: red;
+	box-shadow: 0 0 10px red;
+	cursor: pointer;
+}
+
+#name-input {
+	margin-left: 50%;
+	transform: translateX(-50%);
+	height: 60px;
+	font-size: 14pt;
+	text-align: center;
+	background-color: #0e1111;
+	color: white;
+	border-style: none;
+	outline: none;
+}
+
+#pass-input {
+	margin-left: 50%;
+	transform: translateX(-50%);
+	height: 60px;
+	font-size: 14pt;
+	text-align: center;
+	background-color: #0e1111;
+	color: white;
+	border-style: none;
+	outline: none;
+}
+
+.input-button {
+	width: 200px;
+	height: 50px;
+	margin-top: 30px;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
+	border-style: none;
+	outline: none;
+	font-family: inherit;
+	background-color: red;
+	box-shadow: 0 0 10px red;
+}
+
+.input-button:hover {
+	cursor: pointer;
+}
+
+/* Sign Up Form*/
+
+.singup {
+	position: relative;
+}
+
+.singup h3 {
+	color: white;
+	font-size: 24px;
+	text-align: center;
+	font-style: italic;
+}
+
+.singup button {
+	width: 200px;
+	height: 50px;
+	margin-top: 10px;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
+	border-style: none;
+	outline: none;
+	font-family: inherit;
+	background-color: red;
+	box-shadow: 0 0 10px red;
+}
+
+.singup button:hover {
+	cursor: pointer;
+}
+
+/* Alerts */
+
+.alert {
+	color: red;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 20px;
+	text-align: center;
+}
+
+/* Game Items */
+
+.timer {
+	display: none;
+	text-align: center;
+	color: white;
+	font-size: 150px;
+}
+
+.game-timer {
+	display: none;
+	text-align: center;
+	color: white;
+	position: absolute;
+	width: 100%;
+}
+
+.sentence {
+	margin: auto;
+	display: none;
+	color: white;
+	font-size: 50px;
+}
+
+.restart-button {
+	display: none;
+	width: 200px;
+	height: 50px;
+	margin-top: 30px;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
+	border-style: none;
+	outline: none;
+	font-family: inherit;
+	background-color: red;
+	box-shadow: 0 0 10px red;
+}
+
+.restart-button:hover {
+	cursor: pointer;
+}
+
+/* Mobile Version */
+
+#mobile-keyboard-input {
+	display: none;
+	margin: 20px auto;
+	width: 10px;
+	background-color: inherit;
+	border-style: none;
+	outline: none;
+	color: #0e1111;
+	border-radius: 0;
+}
+
+@media only screen and (max-width: 620px) {
+	.body {
+		max-width: 800px;
+	}
+	.main-title {
+		font-size: 13vw;
+	}
+	.sentence {
+		text-align: center;
+		padding: 10px;
+	}
+
+	.game-timer {
+		margin-top: 150px;
+	}
+
+	#mobile-keyboard-input {
+		display: block;
+	}
+
+	input[type='text'] {
+		-webkit-appearance: none;
+	}
+}

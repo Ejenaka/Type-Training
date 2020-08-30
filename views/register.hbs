@@ -1,0 +1,11 @@
+<div class="main-items">
+    <h1 class="main-title">Type Training</h1>
+    {{> messages}}
+    <form action="/register" method="POST" style="display: block;">
+        <input type="text" name='name' id="name-input" autocomplete="off" placeholder="Enter your name" required='true'
+            style="display: block;" />
+        <input type="password" name="password" id="pass-input" placeholder="Enter your password" required='true'
+            style="display: block;">
+        <button class="input-button" style="display: block;">Sing Up</button>
+    </form>
+</div>

@@ -1,0 +1,14 @@
+<div class="main-items">
+    <h1 class="main-title">Type Training</h1>
+    <form action="/login" method="POST">
+        {{> messages}}
+        <input type="text" name='name' id="name-input" autocomplete="off" placeholder="Enter your name"
+            required='true' />
+        <input type="password" name="password" id="pass-input" placeholder="Enter your password" required='true'>
+        <button class="input-button" type="submit">GO</button>
+    </form>
+    <form action="/register" class="singup">
+        <h3>Or if you are not signed up</h3>
+        <button type="submit">Sing Up</button>
+    </form>
+</div>
