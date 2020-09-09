@@ -1,6 +1,6 @@
 # Type-Training
 
-It's a game for estimate your typing skill
+It's a game for estimating your typing skill
 
 ## Making Score and Timer **NOT EDITABLE** 
 
